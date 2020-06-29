@@ -1,6 +1,6 @@
 ---
 - name: create a file 
--file: 
+file: 
     path: /etc/ttttjjj.txt
     owner: root
     mode: '0644'
