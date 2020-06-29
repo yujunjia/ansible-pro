@@ -1,7 +1,7 @@
 ---
 - name: create a file 
   file: 
-    path: /etc/ttttjjj.txt 
+    path: "{{ file1}}"
     state: touch
     group: root
     owner: root 
