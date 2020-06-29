@@ -1,5 +1,6 @@
 ---
  - name: create a file 
   file: 
-    path: "/root/ttttjjj.txt"
-    state: touch 
+    path: /stc/ttttjjj.txt
+    owner: root
+    mode: '0644'
