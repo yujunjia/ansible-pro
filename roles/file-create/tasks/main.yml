@@ -1,3 +1,8 @@
 ---
 - name: create a file 
-file: path=/etc/ttttjjj.txt owner=root mode= '0644'
+file: 
+ path: /etc/ttttjjj.txt 
+ state: touch
+ froup: root
+ owner: root 
+ mode: '0644'
