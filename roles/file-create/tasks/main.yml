@@ -3,6 +3,6 @@
   file: 
     path: /etc/ttttjjj.txt 
     state: touch
-   group: root
-   owner: root 
-   mode: '0644'
+    group: root
+    owner: root 
+    mode: '0644'
